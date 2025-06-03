@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoutly - Discover What's Next</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin:0; padding:0; }
+        header { background:#4CAF50; color:white; padding:20px; text-align:center; }
+        nav ul { list-style:none; padding:0; display:flex; justify-content:center; }
+        nav li { margin: 0 15px; }
+        nav a { color:white; text-decoration:none; font-weight:bold; }
+        .hero { padding:100px 20px; text-align:center; background:#f2f2f2; }
+        .hero h1 { margin-bottom:20px; }
+        .features { display:flex; flex-wrap:wrap; padding:40px 20px; }
+        .feature { flex:1; min-width:250px; padding:20px; text-align:center; }
+        footer { background:#333; color:#fff; text-align:center; padding:20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Scoutly</h1>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Discover What's Next</h1>
+        <p>Your go-to platform for exploring new opportunities.</p>
+        <button onclick="window.location.href='#contact'">Get Started</button>
+    </section>
+    <section id="features" class="features">
+        <div class="feature">
+            <h2>Connect</h2>
+            <p>Find like-minded individuals and build your network.</p>
+        </div>
+        <div class="feature">
+            <h2>Explore</h2>
+            <p>Discover the latest trends and opportunities.</p>
+        </div>
+        <div class="feature">
+            <h2>Grow</h2>
+            <p>Expand your skillset with our curated resources.</p>
+        </div>
+    </section>
+    <footer id="contact">
+        <p>Get in touch: <a href="mailto:info@scoutly.com">info@scoutly.com</a></p>
+        <p>&copy; 2024 Scoutly</p>
+    </footer>
+</body>
+</html>
