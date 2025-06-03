@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoutly - Discover What's Next</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin:0; padding:0; }
+        header {
+            background:#4CAF50;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+        .logo {
+            height:40px;
+            vertical-align:middle;
+        }
+        nav ul {
+            list-style:none;
+            padding:0;
+            display:flex;
+            justify-content:center;
+        }
+        nav li { margin: 0 15px; }
+        nav a { color:white; text-decoration:none; font-weight:bold; }
+        .hero {
+            padding:100px 20px;
+            text-align:center;
+            background:#f2f2f2;
+        }
+        .hero h1 { margin-bottom:20px; }
+        .description {
+            padding:40px 20px;
+            text-align:center;
+        }
+        .features {
+            display:flex;
+            flex-wrap:wrap;
+            padding:40px 20px;
+        }
+        .feature {
+            flex:1;
+            min-width:250px;
+            padding:20px;
+            text-align:center;
+        }
+        .pricing {
+            background:#fafafa;
+            padding:40px 20px;
+            text-align:center;
+        }
+        .plan {
+            border:1px solid #ddd;
+            border-radius:4px;
+            padding:20px;
+            margin:10px;
+            display:inline-block;
+            width:250px;
+        }
+        .faq {
+            padding:40px 20px;
+            background:#f2f2f2;
+        }
+        footer {
+            background:#333;
+            color:#fff;
+            text-align:center;
+            padding:20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.svg" alt="Scoutly logo" class="logo" />
+        <h1 style="display:inline-block; margin-left:10px; vertical-align:middle;">Scoutly</h1>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Discover What's Next</h1>
+        <p>Your go-to platform for exploring new opportunities.</p>
+        <button onclick="window.location.href='#contact'">Get Started</button>
+    </section>
+    <section class="description">
+        <h2>Why Scoutly?</h2>
+        <p>Scoutly helps you uncover opportunities, connect with peers, and build new skills in one unified platform.</p>
+    </section>
+    <section id="features" class="features">
+        <div class="feature">
+            <h2>Connect</h2>
+            <p>Find like-minded individuals and build your network.</p>
+        </div>
+        <div class="feature">
+            <h2>Explore</h2>
+            <p>Discover the latest trends and opportunities.</p>
+        </div>
+        <div class="feature">
+            <h2>Grow</h2>
+            <p>Expand your skillset with our curated resources.</p>
+        </div>
+    </section>
+    <section id="pricing" class="pricing">
+        <h2>Pricing</h2>
+        <div class="plan">
+            <h3>Starter</h3>
+            <p><strong>Free</strong></p>
+            <p>Basic access to explore Scoutly.</p>
+        </div>
+        <div class="plan">
+            <h3>Pro</h3>
+            <p><strong>$9.99/mo</strong></p>
+            <p>Advanced features for professionals.</p>
+        </div>
+        <div class="plan">
+            <h3>Enterprise</h3>
+            <p><strong>Contact us</strong></p>
+            <p>Tailored solutions for your organization.</p>
+        </div>
+    </section>
+    <section id="faq" class="faq">
+        <h2>FAQ</h2>
+        <p><strong>Is Scoutly really free?</strong> Yes, our starter tier is totally free to help you get started.</p>
+        <p><strong>Can I cancel anytime?</strong> Absolutely, you can manage your subscription from your account page.</p>
+    </section>
+    <footer id="contact">
+        <p>Get in touch: <a href="mailto:info@scoutly.com">info@scoutly.com</a></p>
+        <p>&copy; 2024 Scoutly</p>
+    </footer>
+</body>
+</html>
